@@ -1,4 +1,4 @@
-<h2 align="left">Hola 👋!<br>Soy Miqueas Ledesma, un apasionado programador Frontend que disfruta creando experiencias web dinámicas, intuitivas y funcionales.</h2>
+<h2 align="left">Hola 👋!<br>Soy Miqueas Ledesma, un apasionado programador Full-Stack que disfruta creando experiencias web dinámicas, intuitivas y funcionales.</h2>
 
 ###
 
