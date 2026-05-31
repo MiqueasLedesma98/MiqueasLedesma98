@@ -6,9 +6,9 @@
 ### 🚀 Ecosistema en Destacado: Sistema de Tickets Serverless
 Para demostrar el diseño de sistemas desacoplados y buenas prácticas de DevOps, desarrollé un ecosistema multi-repositorio orientado a eventos (**Pattern Pub/Sub + Fan-out**). Puedes explorar los componentes independientes aquí:
 
-*   ⚙️ [**tickets-infra**](https://github.com/MiqueasLedesma98/tickets-infra) – Infraestructura como Código (IaC) modular utilizando **AWS CDK con TypeScript**. Incluye validación de topología mediante *Snapshot Testing* y un pipeline de simulación (*Dry Run*) en **GitHub Actions**.
-*   🔌 [**tickets-api**](https://github.com/MiqueasLedesma98/tickets-api) – Core API REST en **NestJS** encargada de la ingesta de tráfico de alta velocidad y la publicación asíncrona de eventos hacia **Amazon SNS**.
-*   👷 [**tickets-worker**](https://github.com/MiqueasLedesma98/tickets-worker) – Microservicio asíncrono en **NestJS** diseñado para procesamiento pesado y aislamiento de fallos, consumiendo mensajes de manera resiliente desde **Amazon SQS**.
+*   ⚙️ [**tickets-infra**](https://github.com/MiqueasLedesma98/infra-tickets) – Infraestructura como Código (IaC) modular utilizando **AWS CDK con TypeScript**. Incluye validación de topología mediante *Snapshot Testing* y un pipeline de simulación (*Dry Run*) en **GitHub Actions**.
+*   🔌 [**tickets-api**](https://github.com/MiqueasLedesma98/api-tickets) – Core API REST en **NestJS** encargada de la ingesta de tráfico de alta velocidad y la publicación asíncrona de eventos hacia **Amazon SNS**.
+*   👷 [**tickets-worker**](https://github.com/MiqueasLedesma98/worker-tickets) – Microservicio asíncrono en **NestJS** diseñado para procesamiento pesado y aislamiento de fallos, consumiendo mensajes de manera resiliente desde **Amazon SQS**.
 
 ---
 
